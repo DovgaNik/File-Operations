@@ -1,6 +1,7 @@
 //********************
 //*DovgaNik 2018-2019* 
 //********************
+
 /*
 This class writes text to file.
 To write text to file you must type text and file name in function arguments. For example 

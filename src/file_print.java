@@ -13,7 +13,6 @@ printer.print("file_name");
 If the printing from the file was succesfull function will return 0, if there is printer error
 function will return "1"
 */
-package File_operations;
 
 import java.awt.print.PrinterException;
 import javax.swing.JTextPane;

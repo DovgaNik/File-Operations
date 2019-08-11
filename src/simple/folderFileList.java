@@ -15,7 +15,7 @@ package simple;
 import java.io.File;
 
 public class folderFileList {
-    String[] listFilesInFolder(String folderName){//TESTED This function returns list of files in folder
+    public String[] listFilesInFolder(String folderName){//TESTED This function returns list of files in folder
         File folder = new File(folderName);
         File[] listOfFiles = folder.listFiles();
         

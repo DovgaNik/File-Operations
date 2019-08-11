@@ -17,7 +17,7 @@ package simple;
 
 import java.io.*;
 
-public class file_read {
+public class fileRead {
     public String read(String file_name){
         String txt = "";
         String line = null;

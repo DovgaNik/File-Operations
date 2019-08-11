@@ -17,7 +17,7 @@ function will return "1"
 import java.awt.print.PrinterException;
 import javax.swing.JTextPane;
 
-public class file_print {
+public class filePrint {
     public int print(String txt){
         JTextPane textPane = new JTextPane();
         textPane.setText(txt);

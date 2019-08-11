@@ -6,8 +6,8 @@
 This class writes text to file.
 To write text to file you must type text and file name in function arguments. For example 
 
-import File_operatons.file_write;
-file_write write = new file_write();
+import File_operatons.fileWrite;
+fileWrite write = new fileWrite();
 writer.write("text", "file_name");
 If the writing was succesfull function will return null, if there is IOException function will return 1
 */

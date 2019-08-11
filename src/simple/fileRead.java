@@ -6,9 +6,9 @@
 This class reads text from file 
 To read from file you must type file name in read function arguments. For example:
 
-import File_operatons.fileRead;
-fileRead read = new fileRead();
-reader.read("file_name");
+    import File_operatons.fileRead;
+    fileRead reader = new fileRead();
+    reader.read("file_name");
 
 If the reading from the file was succesfull function will return the text from file, if there is no file with such name 
 function will return "1", if there is IOException function will return "2"

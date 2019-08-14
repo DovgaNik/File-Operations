@@ -6,7 +6,7 @@
 This class reads text from file 
 To read from file you must type file name in read function arguments. For example:
 
-    import File_operatons.fileRead;
+    import fileOperations.simple.fileRead;
     fileRead reader = new fileRead();
     reader.read("file_name");
 

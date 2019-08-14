@@ -6,7 +6,7 @@
 This class helps you getting list of files in the folder
 
 Usage:
-    import File_operatons.folderFileList;
+    import fileOperations.simple.folderFileList;
     folderFileList lister = new folderFileList;
     lister.folderFileList(folderName);
 */

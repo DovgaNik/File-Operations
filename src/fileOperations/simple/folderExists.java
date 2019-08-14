@@ -8,7 +8,7 @@ This class gives you information about the existant of the folder
 Usage:
     import fileOperations.simple.folderExists;
     folderExists checker = new folderExists;
-    lister.check(folderName);
+    checker.check(folderName);
 
 If the folder exists function will return true
 */

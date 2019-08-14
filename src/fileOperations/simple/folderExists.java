@@ -18,7 +18,7 @@ package fileOperations.simple;
 import java.io.File;
 
 public class folderExists {
-    boolean check(String folderName){
+    public boolean check(String folderName){
         File tmpDir = new File("/var/tmp");
         if(tmpDir.exists())
             if (tmpDir.isDirectory()){

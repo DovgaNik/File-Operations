@@ -4,6 +4,11 @@
 
 /*
 This class will create new folder
+
+Usage:
+    import fileOperations.simple.folderCreate;
+    folderCreate checker = new folderCreate;
+    create(folderName);
 */
 
 package fileOperations.simple;
@@ -11,7 +16,7 @@ package fileOperations.simple;
 import java.io.File;
 
 public class folderCreate {
-    void create(String newFolderName){
+    public void create(String newFolderName){
         new File(newFolderName).mkdirs();
     }
 }

@@ -9,6 +9,8 @@ Usage:
     import fileOperations.simple.folderExists;
     folderExists checker = new folderExists;
     lister.check(folderName);
+
+If the folder exists function will return true
 */
 
 package fileOperations.simple;
@@ -16,12 +18,12 @@ package fileOperations.simple;
 import java.io.File;
 
 public class folderExists {
-    int check(String folderName){
+    boolean check(String folderName){
         File tmpDir = new File("/var/tmp");
         if(tmpDir.exists())
             if (tmpDir.isDirectory()){
-                return 0;
+                return true;
             }
-        return 1;
+        return false;
     }
 }

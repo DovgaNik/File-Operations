@@ -10,7 +10,7 @@ Usage:
     folderFileList lister = new folderFileList;
     lister.folderFileList(folderName);
 */
-package simple;
+package fileOperations.simple;
 
 import java.io.File;
 

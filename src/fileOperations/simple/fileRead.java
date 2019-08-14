@@ -13,7 +13,7 @@ To read from file you must type file name in read function arguments. For exampl
 If the reading from the file was succesfull function will return the text from file, if there is no file with such name 
 function will return "1", if there is IOException function will return "2"
 */
-package simple;
+package fileOperations.simple;
 
 import java.io.*;
 
